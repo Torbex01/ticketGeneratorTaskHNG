@@ -1,0 +1,34 @@
+.pricesContainer{
+    width: 143px;
+    height: 105px;
+    border-radius: 12px;
+    border: 1px solid #197686;
+    padding: 12px;
+    cursor: pointer;
+    h2{
+        font-size: 24px;
+        margin: 0;
+    }
+
+    h3{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    p{
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+.pricesContainer:hover{
+    background-color: #2C545B;
+}
+
+@media(max-width: 750px){
+    .pricesContainer{
+        width: 255px;
+        height: 110px;
+
+    }
+}
