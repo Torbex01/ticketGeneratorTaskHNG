@@ -3,8 +3,6 @@ import Details from '../components/Details';
 import Prices from '../components/Prices';
 const Homepage = () =>{
     return(
-        <div>
-
                 <div className="ticketDiv">
                    <div className="ticketHeader">
                    <div className="ticketProgress"><h1>Ticket Selection</h1>  <p>Step 1/3</p></div>
@@ -12,7 +10,6 @@ const Homepage = () =>{
                    </div>
                     <form>
                         <Details/>
-                        <hr />
                    <div className="priceContainer">
                    <p>Select Ticket Type:</p>
                         <div className="priceDiv">
@@ -39,7 +36,6 @@ const Homepage = () =>{
                    </div>
                     </form>
                 </div>
-        </div>
     )
 }
 
