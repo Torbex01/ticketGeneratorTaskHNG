@@ -3,12 +3,12 @@ import './Formpage.css'
 import { BiCloudDownload } from "react-icons/bi";
 const Formpage = () => {
   return (
-    <div className='ticketDiv'>
+    <div id='pageTwo' className='ticketDiv'>
          <div className="ticketHeader">
                    <div className="ticketProgress"><h1>Attendee Details</h1>  <p>Step 2/3</p></div>
                    <nav className='progressBarTwo'></nav>
                    </div> 
-                   <form action="">
+                   <form id='register' action="">
                         <div className="uploadDiv">
                             <p>Upload Profile Photo</p>
                             <div className="picHolder">
@@ -20,11 +20,25 @@ const Formpage = () => {
                         </div>
                         <hr />
 
+                        <main>
                         <label htmlFor="name">Enter your name</label>
                         <input type="text" />
+                        </main>
+                        
+                        <main>
+                       <label htmlFor="email">Enter your email</label>
+                       <input type="email" placeholder='hello@avioflagos.io' />
+                        </main>
 
-                        <label htmlFor="email">Enter your email</label>
-                        <input type="email" placeholder='hello@avioflagos.io' />
+                        <main>
+                       <label htmlFor="message">Special Request?</label>
+                       <input type="text" />
+                        </main>
+
+                        <div className="buttonDiv">
+                    <button className="cancelButton">Back</button>
+                    <button id="nextButton">Get My Free Ticket</button>
+                        </div>
                    </form> 
     </div>
   )

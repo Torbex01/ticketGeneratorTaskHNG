@@ -1,3 +1,12 @@
+#pageTwo{
+    height: 1083px;
+    width: 700px;
+}
+#register{
+    width: 604px;
+    height: 907px;
+}
+
 .uploadDiv{
     width: 556px;
     height: 328px;
@@ -37,4 +46,50 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-top: 0;
+    width: 556px;
+    height: 48px;
+    padding: 12px;
+    background: transparent;
+    border-radius: 12px;
+    border: 1px solid #07373F;
+}
+
+main{
+    width: 556px;
+    height: 80px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 800px){
+    .uploadDiv{
+        width: 90%;
+        height: 328px;
+        padding: 24px;
+    }
+
+    .picHolder{
+        width: 90%;
+        
+    }
+    .picBox{
+        width: 100%;
+        height: 160px;
+    }
+
+    main{
+        width: 95%;
+        input{
+        width: 95%;
+        }
+    }
 }
